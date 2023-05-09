@@ -25,7 +25,7 @@ Time estimate: 2-3 days
 Implementation details:
 Create a new field in the Agents table to store custom IDs.
 Create a new API endpoint to allow Facilities to add/edit custom IDs for Agents.
-Modify the generateReport function to use custom IDs instead of internal database IDs.
+Modify the generateReport function to allow use of custom IDs
 
 ## Ticket 2: Update getShiftsByFacility function to return custom Agent IDs
 
